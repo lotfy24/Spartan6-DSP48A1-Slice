@@ -1,4 +1,11 @@
 # Verilog Implementation of DSP48A1 Slice for Spartan-6 FPGA with Self-Checking Testbench
+## 📷 DSP48A1 Diagrams
+
+### Block Diagram
+![DSP48A1 Block Diagram](picture/Screenshot_2025-08-09_155639.png)
+
+### Internal Architecture
+![DSP48A1 Internal Architecture](picture/Screenshot_2025-08-09_160014.png)
 ## 📌 Overview
 This project implements the **DSP48A1 slice** of the Xilinx Spartan-6 FPGA in **Verilog HDL**, including all functional paths such as the pre-adder/subtracter, multiplier, and post-adder/subtracter.  
 A **self-checking directed testbench** is provided to verify the design using automated expected value comparison.
