@@ -6,7 +6,8 @@
 
 
 ### Internal Architecture
-![DSP48A1 Internal Architecture](picture/Screenshot_2025-08-09_160014.png)
+<img width="900" height="466" alt="Screenshot 2025-08-09 160014" src="https://github.com/user-attachments/assets/d8a1ac44-738d-4da1-b12f-0f27fa7546f5" />
+
 ## 📌 Overview
 This project implements the **DSP48A1 slice** of the Xilinx Spartan-6 FPGA in **Verilog HDL**, including all functional paths such as the pre-adder/subtracter, multiplier, and post-adder/subtracter.  
 A **self-checking directed testbench** is provided to verify the design using automated expected value comparison.
@@ -17,12 +18,12 @@ The design follows the architectural specifications from the [Xilinx DSP48A1 Use
 
 ## 📂 Repository Structure
 ├── Design/
-│ ├── DSP48A1.v # Main DSP48A1 RTL implementation
-│ ├── Reg_Mux.v # Parameterized register/mux helper module
+│   ├── DSP48A1.v        # Main DSP48A1 RTL implementation
+│   ├── Reg_Mux.v        # Parameterized register/mux helper module
 │
 ├── Test_Bench/
-│ ├── DSP48A1_tb.v # Self-checking testbench
-│ ├── dsp48a1.do # QuestaSim automation script
+│   ├── DSP48A1_tb.v     # Self-checking testbench
+│   ├── dsp48a1.do       # QuestaSim automation script
 │
 └── README.md
 
