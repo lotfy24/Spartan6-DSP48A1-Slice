@@ -17,6 +17,7 @@ The design follows the architectural specifications from the [Xilinx DSP48A1 Use
 ---
 
 ## 📂 Repository Structure
+
 ├── Design/
 │   ├── DSP48A1.v        # Main DSP48A1 RTL implementation
 │   ├── Reg_Mux.v        # Parameterized register/mux helper module
@@ -26,11 +27,6 @@ The design follows the architectural specifications from the [Xilinx DSP48A1 Use
 │   ├── dsp48a1.do       # QuestaSim automation script
 
 └── README.md
-
-
-
-
-
 
 ---
 
