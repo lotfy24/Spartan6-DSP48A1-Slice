@@ -2,7 +2,8 @@
 ## 📷 DSP48A1 Diagrams
 
 ### Block Diagram
-![DSP48A1 Block Diagram](picture/Screenshot_2025-08-09_155639.png)
+<img width="429" height="546" alt="Screenshot 2025-08-09 155639" src="https://github.com/user-attachments/assets/d7cd1531-e21e-4953-ba5e-40468934e914" />
+
 
 ### Internal Architecture
 ![DSP48A1 Internal Architecture](picture/Screenshot_2025-08-09_160014.png)
