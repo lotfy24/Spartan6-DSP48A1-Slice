@@ -12,8 +12,6 @@
 This project implements the **DSP48A1 slice** of the Xilinx Spartan-6 FPGA in **Verilog HDL**, including all functional paths such as the pre-adder/subtracter, multiplier, and post-adder/subtracter.  
 A **self-checking directed testbench** is provided to verify the design using automated expected value comparison.
 
-The design follows the architectural specifications from the [Xilinx DSP48A1 User Guide (UG389)](https://www.xilinx.com/support/documentation/user_guides/ug389.pdf) and includes a `.do` script for automated simulation in QuestaSim.
-
 ---
 
 ## ✨ Features
@@ -104,7 +102,3 @@ The **self-checking testbench** in `Test_Bench/DSP48A1_tb.v`:
 
 ---
 
-## 📜 License
-This project is open-source under the MIT License — feel free to use and modify it for educational and research purposes.
-
----
