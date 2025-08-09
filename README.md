@@ -20,13 +20,11 @@ The design follows the architectural specifications from the [Xilinx DSP48A1 Use
 ├── Design/
 │   ├── DSP48A1.v        # Main DSP48A1 RTL implementation
 │   ├── Reg_Mux.v        # Parameterized register/mux helper module
-│
-│
+
 ├── Test_Bench/
 │   ├── DSP48A1_tb.v     # Self-checking testbench
 │   ├── dsp48a1.do       # QuestaSim automation script
-│
-│
+
 └── README.md
 
 
